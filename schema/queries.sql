@@ -17,21 +17,20 @@ CREATE TABLE transactions (
     sale_date DATE,
     amount NUMBER(12,2)
 );
--- Clients
+ Clients
 INSERT INTO customers VALUES (1001, 'John Doe', 'Kigali');
 INSERT INTO customers VALUES (1002, 'Alice Smith', 'Huye');
 INSERT INTO customers VALUES (1003, 'Eric Brown', 'Musanze');
 INSERT INTO customers VALUES (1004, 'Marie Uwimana', 'Kigali');
 INSERT INTO customers VALUES (1005, 'Samuel Habimana', 'Huye');
-
--- Produits
+ Produits
 INSERT INTO products VALUES (2001, 'Coffee Beans', 'Beverages');
 INSERT INTO products VALUES (2002, 'Tea Pack', 'Beverages');
 INSERT INTO products VALUES (2003, 'Biscuits', 'Snacks');
 INSERT INTO products VALUES (2004, 'Rice Bag', 'Food');
 INSERT INTO products VALUES (2005, 'Juice Bottle', 'Beverages');
 
--- Transactions
+Transactions
 INSERT INTO transactions VALUES (3001, 1001, 2001, DATE '2024-01-15', 25000);
 INSERT INTO transactions VALUES (3002, 1002, 2003, DATE '2024-01-20', 15000);
 INSERT INTO transactions VALUES (3003, 1003, 2004, DATE '2024-02-05', 30000);
