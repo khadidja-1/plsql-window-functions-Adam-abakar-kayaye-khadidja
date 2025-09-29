@@ -1,3 +1,9 @@
+Instructor: Eric MANIRAGUHA
+Assignment Date: September 19, 2025
+Group: A
+Student: Khadidja Adam Abakar Kayaye
+ID:28041 
+
 # PL/SQL Window Functions
 
 This project demonstrates the use of window functions in PL/SQL for advanced data analysis and reporting.
